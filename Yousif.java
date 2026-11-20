@@ -27,23 +27,23 @@ public class Yousif{
    }
    
    //methods
-   public static void sing() {
+   public void sing() {
       //Yousif will sing his favorite phrase
    }
    
-   public static void stopSing() {
+   public void stopSing() {
       //Yousif will stop singing his favorite phrase
    }
    
-   public static void laugh() {
+   public void laugh() {
       //Yousif will laugh
    }
    
-   public static void move(String newLoc) {
+   public void move(String newLoc) {
       //Yousif will update location to newLoc
    }
    
-   public static int birthday() {
+   public int birthday() {
       //Age will increase by 1
       return 0;
    }
