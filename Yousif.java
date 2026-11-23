@@ -38,18 +38,22 @@ public class Yousif{
    
    public void stopSing() {
       //Yousif will stop singing his favorite phrase
+      sayingPhraseCurrently = false;
    }
    
    public void laugh() {
       //Yousif will laugh
+      System.out.println("Yousif says hoohohohohhoho");
    }
    
    public void move(String newLoc) {
       //Yousif will update location to newLoc
+      location = newLoc;
    }
    
    public int birthday() {
       //Age will increase by 1
-      return 0;
+      age += 1;
+      return age;
    }
 }

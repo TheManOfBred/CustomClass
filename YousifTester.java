@@ -1,6 +1,7 @@
 public class YousifTester {
    public static void main(String[] args) {
-      Yousif yousif = new Yousif();
-      yousif.sing();
+      Yousif yousif1 = new Yousif();
+      yousif1.sing();
+      
    }
 }
