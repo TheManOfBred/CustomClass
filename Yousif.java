@@ -25,10 +25,17 @@ public class Yousif{
       this.hasGirlfriend = hasGirlfriend;
       this.sayingPhraseCurrently = sayingPhraseCurrently;
    }
+   //this constructor is og Yousif
+   public Yousif(int age, String location) {
+      this.age = age;
+      this.location = location;
+   }
    
    //methods
    public void sing() {
       //Yousif will sing his favorite phrase
+      System.out.println("Yousif says " + favoritePhrase);
+      sayingPhraseCurrently = true;
    }
    
    public void stopSing() {
