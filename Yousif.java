@@ -4,7 +4,6 @@ public class Yousif{
    private double height;
    private String location;
    private String favoritePhrase;
-   private boolean hasGirlfriend;
    private boolean sayingPhraseCurrently;
    
    //constructors
@@ -13,17 +12,16 @@ public class Yousif{
    height = .59;
    location = "Seattle";
    favoritePhrase = "Veda Veda Veda";
-   hasGirlfriend = false;
+   
    sayingPhraseCurrently = false;
    }
    
-   public Yousif(int age, double height, String location, String favoritePhrase, boolean hasGirlfriend, boolean sayingPhraseCurrently) {
+   public Yousif(int age, double height, String location, String favoritePhrase,   boolean sayingPhraseCurrently) {
       this.age = age;
       this.height = height;
       this.location = location;
       this.favoritePhrase = favoritePhrase;
-      this.hasGirlfriend = hasGirlfriend;
-      this.sayingPhraseCurrently = sayingPhraseCurrently;
+            this.sayingPhraseCurrently = sayingPhraseCurrently;
    }
    //this constructor is og Yousif
    public Yousif(int age, String location) {
